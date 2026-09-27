@@ -1,0 +1,39 @@
+{
+  "name": "@mktdev/brand",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MKTDEV brand occupants and boot identity for the DSH Web UI",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "meta": {
+    "title": "MKTDEV Branding",
+    "description": "Applies the MKTDEV name, mark and bronze, gold and sand palette to the Web UI."
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "palette.css",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json"
+  ]
+}

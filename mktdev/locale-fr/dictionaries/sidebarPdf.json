@@ -1,0 +1,11 @@
+{
+  "title": "PDF",
+  "pageImage": "Page PDF {page}",
+  "loading": "Rendu du document...",
+  "rendering": "Rendu de la page…",
+  "failed": "Impossible d’afficher le PDF : {message}",
+  "password": "Ce PDF nécessite un mot de passe ; les aperçus protégés par mot de passe ne sont pas pris en charge.",
+  "workerFailed": "Le processus de rendu du PDF n’a pas pu continuer. Veuillez réessayer.",
+  "unsupported": "L’aperçu PDF nécessite le contenu complet du fichier.",
+  "retry": "Réessayer"
+}

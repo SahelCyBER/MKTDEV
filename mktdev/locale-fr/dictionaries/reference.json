@@ -1,0 +1,13 @@
+{
+  "section.files": "Fichiers et dossiers",
+  "section.subagents": "Sous-agents",
+  "section.sessions": "Sessions",
+  "candidate.noCwd": "(sans répertoire courant)",
+  "crumb.root": "Espace de travail",
+  "time.now": "maintenant",
+  "time.minutes": "{n}min",
+  "time.hours": "{n}h",
+  "time.days": "{n}j",
+  "time.months": "{n}mois",
+  "time.years": "{n}an"
+}

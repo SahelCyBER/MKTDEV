@@ -1,0 +1,17 @@
+{
+  "error.incomplete": "Veuillez d’abord répondre à cette question.",
+  "error.unanswered": "Veuillez sélectionner une option ou saisir une réponse personnalisée.",
+  "nav.prev": "Question précédente",
+  "nav.next": "Question suivante",
+  "nav.minimize": "Réduire la carte de question",
+  "nav.maximize": "Développer la carte de question",
+  "nav.cancel": "Ignorer toutes les questions",
+  "option.recommended": "Recommandé",
+  "custom.placeholder": "Saisissez votre réponse",
+  "action.skip": "Ignorer",
+  "action.next": "Suivant",
+  "plan.header": "Révision du plan",
+  "plan.approve": "Approuver",
+  "plan.decline": "Refuser",
+  "plan.discuss": "Demander des modifications"
+}

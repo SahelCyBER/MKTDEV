@@ -1,0 +1,18 @@
+{
+  "trigger.label": "Rappels",
+  "list.loading": "Chargement des rappels…",
+  "list.error": "Impossible de charger les rappels.",
+  "list.retry": "Réessayer",
+  "delete.action": "Supprimer",
+  "delete.pending": "Suppression…",
+  "delete.label": "Supprimer le rappel : {title}",
+  "list.open": "Ouvrir le détail du rappel : {title}",
+  "trigger.one": "{count} rappel",
+  "trigger.other": "{count} rappels",
+  "list.aria": "Rappels actifs",
+  "list.nextRun": "Prochaine exécution",
+  "frequency.once": "Une fois",
+  "frequency.every": "Toutes les {value} {unit}",
+  "mark.aria": "{count} tâches planifiées",
+  "hover.more": "{count} de plus"
+}

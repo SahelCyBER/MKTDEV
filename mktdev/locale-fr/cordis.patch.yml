@@ -1,0 +1,8 @@
+# MKTDEV French language pack bundle patch.
+#
+# Used when this directory is installed into a profile as a bundle
+# (`dsh plugin --profile web add <path>`, or the Plugin Manager's
+# `install_bundle`). The launcher route uses `../overlay.yml` instead.
+- insert:
+    - id: mktdev-locale-fr
+      name: '@mktdev/locale-fr'

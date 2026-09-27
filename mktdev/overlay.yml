@@ -1,0 +1,21 @@
+# MKTDEV brand overlay for `dsh web --patch`.
+#
+# Applied over the unmodified upstream tree: every row below belongs to this
+# fork's own `mktdev/` directory, so `master` can stay byte-identical to
+# deepseek-ai/deepseek-harness and rebase without conflicts.
+#
+# The row name is a path relative to this file, which is what lets an
+# out-of-tree bundle work: the Loader resolves it beside the patch, then reads
+# the neighbouring `branding/package.json` for the `dsh.client` declaration.
+
+# The upstream official brand only registers under DSH_CLIENT_BUILD_PROFILE=official.
+# This fork builds a local profile, so the row is dormant; disabling it states
+# that explicitly and keeps the sidebar brand unambiguous.
+- id: ui-brand-official
+  disabled: true
+
+- insert:
+    - id: mktdev-brand
+      name: './branding/index.js'
+    - id: mktdev-locale-fr
+      name: './locale-fr/index.js'

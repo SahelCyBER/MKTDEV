@@ -1,0 +1,19 @@
+{
+  "shortcut.noSession": "Sélectionnez d’abord une session",
+  "type.label": "Fichiers",
+  "guide.title": "Fichiers de l’espace de travail",
+  "guide.description": "Parcourir les fichiers de l’espace de travail de cette session",
+  "loading": "Lecture…",
+  "empty": "Dossier vide",
+  "truncated": "Trop d’entrées : seules quelques-unes sont affichées.",
+  "noWorkspace": "Cette session n’a pas de dossier d’espace de travail.",
+  "reload": "Recharger",
+  "autoRefresh": "Actualisation automatique",
+  "autoRefresh.enable": "Activer l’actualisation automatique",
+  "autoRefresh.disable": "Désactiver l’actualisation automatique",
+  "entry.other": "Ni un fichier ni un dossier : l’ouverture est impossible.",
+  "error.notFound": "Ce dossier a disparu. Il a peut-être été déplacé ou supprimé.",
+  "error.outsideWorkspace": "Ce dossier est en dehors de l’espace de travail ; le panneau latéral ne le lira pas.",
+  "error.notDirectory": "Ce n’est pas un dossier.",
+  "error.unavailable": "Échec de la lecture : {message}"
+}

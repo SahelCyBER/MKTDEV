@@ -1,0 +1,36 @@
+{
+  "name": "@mktdev/locale-fr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "French language pack for the DSH Web UI",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "meta": {
+    "title": "MKTDEV Français",
+    "description": "Ajoute la langue française à l'interface web."
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json"
+  ]
+}

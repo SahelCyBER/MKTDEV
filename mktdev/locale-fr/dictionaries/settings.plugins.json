@@ -1,0 +1,7 @@
+{
+  "nav": "Plugins intégrés",
+  "title": "Plugins intégrés",
+  "intro": "Inspecter les plugins fournis par ce déploiement.",
+  "tabs": "Vues des plugins",
+  "empty": "Ce déploiement n’expose aucune vue de plugin."
+}

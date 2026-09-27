@@ -1,0 +1,9 @@
+# MKTDEV branding bundle patch.
+#
+# Used when this directory is installed into a profile as a bundle
+# (`dsh plugin --profile web add <path>`, or the Plugin Manager's
+# `install_bundle`). The launcher route uses `../overlay.yml` instead, which
+# targets the same row id and needs no profile installation.
+- insert:
+    - id: mktdev-brand
+      name: '@mktdev/brand'
