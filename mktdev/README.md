@@ -37,6 +37,21 @@ Le serveur écoute sur `http://127.0.0.1:3080`. Pour un lancement sans reconstru
 ./mktdev/launch.sh --prod
 ```
 
+### Domaine local via Valet
+
+`dsh web` reste sur `127.0.0.1:3080` ; le proxy Valet termine le TLS et relaie
+vers ce serveur. Le launcher déclare l'autorité `mktdev.test` au fence de
+confiance des API (`--trusted-host`, surchargeable par `MKTDEV_DOMAIN`), sans
+quoi les appels `/api` répondraient 403 sur ce domaine.
+
+```sh
+valet proxy mktdev http://127.0.0.1:3080 --secure
+```
+
+À la première visite, ouvrez `https://mktdev.test/?token=...` en reprenant le
+jeton affiché par le launcher ; le cookie déposé ensuite vaut trente jours pour
+cette autorité, exactement comme pour `127.0.0.1:3080`.
+
 ### Accès et authentification
 
 `dsh web` refuse l'URL racine seule : il attend le jeton imprimé au démarrage, sous la
